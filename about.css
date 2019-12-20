@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+
+html{
+	overflow-y: scroll;
+}
+body{
+	background-image: url("https://wallpapercave.com/wp/L4ESa9b.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 3px;
+}
+p{
+	display: flex;
+	justify-content: space-around;
+}
+h2{
+	text-align: center;
+	color: Green;
+	font-size: 30px;
+}
+h1{
+	text-align: center;
+	color: violet;
+}
+.imgLeft{
+	float: left;
+	margin-right: 15px;
+	border: 4px solid red;
+	border-radius: 20px;
+}
+.imgRight{
+	float: right;
+	margin-left: 15px;
+}
+#nav a{
+	color: #9ACD32;
+}
+#main{
+	display: flex;
+	flex-direction: column;
+	width: 650px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: pink;
+	padding: 50px;
+	opacity: 0.8;  
+	border: solid 10px #00FA9A;
+    border-radius: 10px 40px 40px 10px;
+    color:#0000CD;
+    font-family: 'Lilita One', cursive;
+}
+#nav{
+	display: flex;
+	justify-content: space-between;
+	border: 4px groove green;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 5px;
+	padding-bottom: 7px;
+}
+#footer{
+	border: groove 1em red;
+    border-radius: 2em;
+    text-align: center;
+    color: #00FF7F;
+}
+a:hover{
+color:#20B2AA;
+border-bottom: 3px solid;
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+html{
+	overflow-y: scroll;
+}
+a:hover{
+color:#00FFFF;
+border-bottom: 1px solid;
+}
+body{
+background-image: url("https://www.muralswallpaper.com/app/uploads/barcelona-nou-camp-football-plain-820x532.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100%;
+font-size: 18px;
+text-align: center;
+margin: 0;
+line-height: 20px;
+}
+p{
+color:#8A2BE2;
+font-family:'Odibee Sans', cursive;
+font-size: 20px;
+text-align: center;
+}
+h1{
+text-align: center;
+color: gold;
+font-size: 35px;
+font-family: 'Lakki Reddy', cursive;
+}
+li{
+	color:	#000080;
+}
+h2{
+	color: gold;
+}
+h3{
+	color: aqua;
+}
+#banner{
+width:700px;
+height:50px;
+margin:0 auto;
+text-align:center;
+padding: 10px;
+background-image:url("https://www.xmple.com/wallpaper/checkered-red-blue-squares-3840x2160-c2-000080-dc143c-l-290-a-20-f-2.svg");
+border-radius: 10px;
+}
+#nav{
+display: flex;
+justify-content: space-around;
+white-space: nowrap;
+text-align:center;
+border-radius: 10% / 50%;
+background-color: gold;
+height: 30px;
+}
+#wrapper{
+display: flex;
+width: 100%;
+justify-content: space-between;
+margin: 0 auto;
+padding: 70px;
+}
+#main{
+width: 650px;
+margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+background-color: pink;
+padding: 50px;
+border: 10px solid #7FFF00;
+border-radius: 25px;
+opacity: 0.8;
+}
+#main2{
+width: 650px;
+margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+background-color: pink;
+padding: 50px;
+border: 10px solid #7FFF00;
+border-radius: 25px;
+opacity: 0.8;
+}
+#footer{
+width: 100%;
+margin-left: auto;
+margin-right:auto;
+font-family: "Times New Roman", Times, serif;
+color: Yellow;
+font-size: 18px;
+text-transform: uppercase;
+border: 7px double;
+padding-top: 5px;
+text-align: center;
+}
+#aside{
+width: 650px;
+height: 650px;
+margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
+background-color: pink;
+text-algin: center;
+padding-bottom: 30px;
+opacity: 0.8;
+border: 5px groove blue;
+border-radius: 5px;
+font-family: 'Lakki Reddy', cursive;
+}
+#nav a{
+font-weight: bold;
+}
+.barmad{
+	height: 200px;
+	width: 500px;
+	border: 5px;
+	border-radius: 10px solid green;
+}
+.imgLeft{
+float: left;
+margin-right: 15px;
+}
+.imgRight{
+float: right;
+margin-left: 15px;
+border-radius: 20px ;
+}
+.messi{
+border-radius: 10% / 50%;
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+.stadium{
+border-radius: 30px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+.vid{
+border-radius:10% / 15%;
+}
